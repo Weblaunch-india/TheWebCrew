@@ -12,9 +12,12 @@
   <div class="bg-teal-500" >  
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto ">
-      <a class="inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded   mt-4 md:mt-0 transition-all hover:text-white">Home</a>
+      <a href="#home" class="inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded   mt-4 md:mt-0 transition-all hover:text-white">Home</a>
+      <a href="#products" class=" mx-3 inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded   mt-4 md:mt-0 hover:text-white">Products</a>
+
       <a class="mx-3 inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded  mt-4 md:mt-0 hover:text-white">About</a>
-      <a class="inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded   mt-4 md:mt-0 hover:text-white">Contact</a>
+      <a href="#contact" class="inline-flex items-center bg-teal-200 cursor-pointer text-black border-0 py-1 px-3 focus:outline-none text-lg rounded   mt-4 md:mt-0 hover:text-white">Contact</a>
+
     </nav>
     <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
       <span class="ml-3 text-xl text-white font-bold ">MedicAgent <br> WebCrew</span>
@@ -30,7 +33,7 @@
   </div>
 </div>
 </header>
-<section class="text-gray-600 body-font">
+<section id="home" class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-col">
       <div class="lg:w-4/6 mx-auto">
         <div class="rounded-lg h-64 overflow-hidden">
@@ -52,7 +55,7 @@
       </div>
     </div>
   </section>
-  <section class="text-gray-600 body-font">
+  <section id="products" class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col">
         <div class="h-1 bg-gray-200 rounded overflow-hidden">
@@ -151,7 +154,7 @@
       </div>
     </div>
   </section>
-  <section class="text-gray-600 body-font relative">
+  <section id="contact" class="text-gray-600 body-font relative">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
@@ -162,26 +165,26 @@
           <div class="p-2 w-1/2">
             <div class="relative">
               <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-              <input type="text" id="name" name="name" placeholder="Enter Your Full Name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-teal-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="text" id="name" name="name" placeholder="Enter Your Full Name" class="w-full bg-white bg-opacity-100 rounded border border-gray-300 focus:border-teal-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
           <div class="p-2 w-1/2">
             <div class="relative">
               <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-              <input type="email" id="email" name="email" placeholder="Enter Your Email-ID" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="email" id="email" name="email" placeholder="Enter Your Email-ID" class="w-full bg-white bg-opacity-100 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
           <div class="p-2 w-full">
             <div class="relative">
               <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-              <textarea id="message" name="message" placeholder="Drop your queries and suggestions" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              <textarea id="message" name="message" placeholder="Drop your queries and suggestions" class="w-full bg-white bg-opacity-100 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
             </div>
           </div>
           <div class="p-2 w-full">
             <button class="flex mx-auto text-white bg-yellow-500 font-bold border-0 py-2 px-8 focus:outline-none hover:bg-yellow-400 rounded text-lg">Submit</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a class="text-indigo-500">MedicAgent@gmail.com</a>
+            <a class="text-black font-medium cursor-pointer hover: font-bold">MedicAgent@gmail.com</a>
             <p class="leading-normal my-5">Hyderabad
               <br>Telangana, India
             </p>
@@ -214,7 +217,7 @@
     </div>
   </section>
   
-<footer class="text-gray-600 body-font">
+<footer class="text-gray-600 bg-teal-200 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <span class="ml-3 text-xl">MedicAgent</span>
